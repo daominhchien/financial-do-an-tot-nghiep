@@ -1,0 +1,24 @@
+# requirements.txt - Dependencies cho Financial Data ETL Pipeline
+
+# Core Data Processing
+vnstock>=3.0.0              # Thư viện dữ liệu chứng khoán Việt Nam
+pandas>=2.0.0               # Data manipulation
+numpy>=1.24.0               # Numerical computing
+
+# Database (PostgreSQL)
+sqlalchemy>=2.0.0           # ORM
+psycopg2-binary>=2.9.0      # PostgreSQL adapter
+
+# Utilities
+python-dotenv>=1.0.0        # Environment variables
+tqdm>=4.66.0                # Progress bars
+colorama>=0.4.6             # Colored terminal output
+
+# Logging
+loguru>=0.7.0               # Better logging
+
+# Scheduling (optional)
+# apscheduler>=3.10.0       # Job scheduling
+
+# Testing
+pytest>=7.4.0               # Testing framework

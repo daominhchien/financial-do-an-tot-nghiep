@@ -1,0 +1,16 @@
+{
+  "run_time": "2026-02-10T08:59:06.808179",
+  "total_symbols": 4,
+  "success_count": 4,
+  "failed_count": 0,
+  "success_rate": 100.0,
+  "total_time_seconds": 60.63749575614929,
+  "symbols_processed": [
+    "VNM",
+    "FPT",
+    "VIC",
+    "HPG"
+  ],
+  "symbols_failed": [],
+  "errors": {}
+}

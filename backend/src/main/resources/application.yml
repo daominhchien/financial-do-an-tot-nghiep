@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: investment-api
+  
+  # MySQL Configuration
+  datasource:
+    url: jdbc:mysql://localhost:3306/investment_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: chien1207
+  
+  # JPA Configuration
+  jpa:
+    hibernate:
+      ddl-auto: update  # Tự động tạo/update table
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+# CORS Configuration
+cors:
+  allowed-origins: http://localhost:5173,http://localhost:3000
+
+# Logging
+logging:
+  level:
+    com.investment: DEBUG
+    org.springframework.web: INFO

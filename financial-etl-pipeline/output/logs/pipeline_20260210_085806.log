@@ -1,0 +1,114 @@
+2026-02-10 08:58:06 | INFO     | Pipeline initialized for 4 symbols
+2026-02-10 08:58:06 | INFO     | ============================================================
+2026-02-10 08:58:06 | INFO     | 🚀 STARTING FINANCIAL DATA PIPELINE
+2026-02-10 08:58:06 | INFO     |    Symbols: 4
+2026-02-10 08:58:06 | INFO     |    Output: ./output
+2026-02-10 08:58:06 | INFO     | ============================================================
+2026-02-10 08:58:06 | DEBUG    | [VNM] Extracting...
+2026-02-10 08:58:06 | INFO     | 📥 Extracting data for VNM...
+2026-02-10 08:58:08 | WARNING  | Could not extract company info: 'DataFrame' object has no attribute 'applymap'
+2026-02-10 08:58:11 | DEBUG    | Balance sheet: 52 rows
+2026-02-10 08:58:14 | DEBUG    | Income statement: 52 rows
+2026-02-10 08:58:16 | DEBUG    | Cash flow: 52 rows
+2026-02-10 08:58:19 | DEBUG    | Ratios: 52 rows
+2026-02-10 08:58:21 | DEBUG    | Historical prices: 264 rows
+2026-02-10 08:58:21 | SUCCESS  | ✅ Successfully extracted data for VNM
+2026-02-10 08:58:21 | DEBUG    | [VNM] Transforming...
+2026-02-10 08:58:21 | DEBUG    | Cleaned DataFrame: 52 rows, 44 columns
+2026-02-10 08:58:21 | DEBUG    | Cleaned DataFrame: 52 rows, 32 columns
+2026-02-10 08:58:21 | DEBUG    | Cleaned DataFrame: 52 rows, 42 columns
+2026-02-10 08:58:21 | DEBUG    | Calculated 0 ratios
+2026-02-10 08:58:21 | DEBUG    | [VNM] Loading...
+2026-02-10 08:58:21 | DEBUG    | Saved: output\VNM\balance_sheet.csv
+2026-02-10 08:58:21 | DEBUG    | Saved: output\VNM\income_statement.csv
+2026-02-10 08:58:21 | DEBUG    | Saved: output\VNM\cash_flow.csv
+2026-02-10 08:58:21 | DEBUG    | Saved: output\VNM\ratios.csv
+2026-02-10 08:58:21 | DEBUG    | Saved: output\VNM\historical_prices.csv
+2026-02-10 08:58:21 | INFO     | 💾 Saved 5 files for VNM
+2026-02-10 08:58:21 | INFO     | ✅ VNM: Completed successfully
+2026-02-10 08:58:21 | DEBUG    | [FPT] Extracting...
+2026-02-10 08:58:21 | INFO     | 📥 Extracting data for FPT...
+2026-02-10 08:58:24 | WARNING  | Could not extract company info: 'DataFrame' object has no attribute 'applymap'
+2026-02-10 08:58:26 | DEBUG    | Balance sheet: 54 rows
+2026-02-10 08:58:29 | DEBUG    | Income statement: 54 rows
+2026-02-10 08:58:32 | DEBUG    | Cash flow: 54 rows
+2026-02-10 08:58:34 | DEBUG    | Ratios: 54 rows
+2026-02-10 08:58:36 | DEBUG    | Historical prices: 264 rows
+2026-02-10 08:58:36 | SUCCESS  | ✅ Successfully extracted data for FPT
+2026-02-10 08:58:36 | DEBUG    | [FPT] Transforming...
+2026-02-10 08:58:36 | DEBUG    | Cleaned DataFrame: 54 rows, 44 columns
+2026-02-10 08:58:36 | DEBUG    | Cleaned DataFrame: 54 rows, 32 columns
+2026-02-10 08:58:36 | DEBUG    | Cleaned DataFrame: 54 rows, 41 columns
+2026-02-10 08:58:36 | DEBUG    | Calculated 0 ratios
+2026-02-10 08:58:36 | DEBUG    | [FPT] Loading...
+2026-02-10 08:58:36 | DEBUG    | Saved: output\FPT\balance_sheet.csv
+2026-02-10 08:58:36 | DEBUG    | Saved: output\FPT\income_statement.csv
+2026-02-10 08:58:36 | DEBUG    | Saved: output\FPT\cash_flow.csv
+2026-02-10 08:58:36 | DEBUG    | Saved: output\FPT\ratios.csv
+2026-02-10 08:58:36 | DEBUG    | Saved: output\FPT\historical_prices.csv
+2026-02-10 08:58:36 | INFO     | 💾 Saved 5 files for FPT
+2026-02-10 08:58:36 | INFO     | ✅ FPT: Completed successfully
+2026-02-10 08:58:36 | DEBUG    | [VIC] Extracting...
+2026-02-10 08:58:36 | INFO     | 📥 Extracting data for VIC...
+2026-02-10 08:58:38 | WARNING  | Could not extract company info: 'DataFrame' object has no attribute 'applymap'
+2026-02-10 08:58:41 | DEBUG    | Balance sheet: 53 rows
+2026-02-10 08:58:44 | DEBUG    | Income statement: 53 rows
+2026-02-10 08:58:47 | DEBUG    | Cash flow: 53 rows
+2026-02-10 08:58:49 | DEBUG    | Ratios: 53 rows
+2026-02-10 08:58:51 | DEBUG    | Historical prices: 264 rows
+2026-02-10 08:58:51 | SUCCESS  | ✅ Successfully extracted data for VIC
+2026-02-10 08:58:51 | DEBUG    | [VIC] Transforming...
+2026-02-10 08:58:51 | DEBUG    | Cleaned DataFrame: 53 rows, 46 columns
+2026-02-10 08:58:51 | DEBUG    | Cleaned DataFrame: 53 rows, 32 columns
+2026-02-10 08:58:51 | DEBUG    | Cleaned DataFrame: 53 rows, 42 columns
+2026-02-10 08:58:51 | DEBUG    | Calculated 0 ratios
+2026-02-10 08:58:51 | DEBUG    | [VIC] Loading...
+2026-02-10 08:58:51 | DEBUG    | Saved: output\VIC\balance_sheet.csv
+2026-02-10 08:58:51 | DEBUG    | Saved: output\VIC\income_statement.csv
+2026-02-10 08:58:51 | DEBUG    | Saved: output\VIC\cash_flow.csv
+2026-02-10 08:58:51 | DEBUG    | Saved: output\VIC\ratios.csv
+2026-02-10 08:58:51 | DEBUG    | Saved: output\VIC\historical_prices.csv
+2026-02-10 08:58:51 | INFO     | 💾 Saved 5 files for VIC
+2026-02-10 08:58:51 | INFO     | ✅ VIC: Completed successfully
+2026-02-10 08:58:51 | DEBUG    | [HPG] Extracting...
+2026-02-10 08:58:51 | INFO     | 📥 Extracting data for HPG...
+2026-02-10 08:58:54 | WARNING  | Could not extract company info: 'DataFrame' object has no attribute 'applymap'
+2026-02-10 08:58:56 | DEBUG    | Balance sheet: 52 rows
+2026-02-10 08:58:59 | DEBUG    | Income statement: 52 rows
+2026-02-10 08:59:02 | DEBUG    | Cash flow: 52 rows
+2026-02-10 08:59:04 | DEBUG    | Ratios: 52 rows
+2026-02-10 08:59:06 | DEBUG    | Historical prices: 264 rows
+2026-02-10 08:59:06 | SUCCESS  | ✅ Successfully extracted data for HPG
+2026-02-10 08:59:06 | DEBUG    | [HPG] Transforming...
+2026-02-10 08:59:06 | DEBUG    | Cleaned DataFrame: 52 rows, 44 columns
+2026-02-10 08:59:06 | DEBUG    | Cleaned DataFrame: 52 rows, 32 columns
+2026-02-10 08:59:06 | DEBUG    | Cleaned DataFrame: 52 rows, 42 columns
+2026-02-10 08:59:06 | DEBUG    | Calculated 0 ratios
+2026-02-10 08:59:06 | DEBUG    | [HPG] Loading...
+2026-02-10 08:59:06 | DEBUG    | Saved: output\HPG\balance_sheet.csv
+2026-02-10 08:59:06 | DEBUG    | Saved: output\HPG\income_statement.csv
+2026-02-10 08:59:06 | DEBUG    | Saved: output\HPG\cash_flow.csv
+2026-02-10 08:59:06 | DEBUG    | Saved: output\HPG\ratios.csv
+2026-02-10 08:59:06 | DEBUG    | Saved: output\HPG\historical_prices.csv
+2026-02-10 08:59:06 | INFO     | 💾 Saved 5 files for HPG
+2026-02-10 08:59:06 | INFO     | ✅ HPG: Completed successfully
+2026-02-10 08:59:06 | DEBUG    | Saved: output\combined\all_balance_sheets.csv
+2026-02-10 08:59:06 | INFO     | 📊 Combined balance_sheet: 211 rows
+2026-02-10 08:59:06 | DEBUG    | Saved: output\combined\all_income_statements.csv
+2026-02-10 08:59:06 | INFO     | 📊 Combined income_statement: 211 rows
+2026-02-10 08:59:06 | DEBUG    | Saved: output\combined\all_cash_flows.csv
+2026-02-10 08:59:06 | INFO     | 📊 Combined cash_flow: 211 rows
+2026-02-10 08:59:06 | DEBUG    | Saved: output\combined\all_ratioss.csv
+2026-02-10 08:59:06 | INFO     | 📊 Combined ratios: 211 rows
+2026-02-10 08:59:06 | DEBUG    | Saved: output\combined\all_historical_pricess.csv
+2026-02-10 08:59:06 | INFO     | 📊 Combined historical_prices: 1056 rows
+2026-02-10 08:59:06 | INFO     | 
+╔══════════════════════════════════════════════════════════════╗
+║                    PIPELINE RESULT SUMMARY                   ║
+╠══════════════════════════════════════════════════════════════╣
+║  Total symbols processed:    4                              ║
+║  Successful:    4  |  Failed:    0  |  Rate: 100.0%       ║
+║  Total time:   60.6 seconds                                ║
+╚══════════════════════════════════════════════════════════════╝
+
+2026-02-10 08:59:06 | INFO     | 📋 Metadata saved to output\pipeline_metadata.json

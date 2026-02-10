@@ -97,6 +97,7 @@ Invoke-WebRequest -Method POST -Uri "http://localhost:8080/api/admin/import?path
 
 **Cách 2: Mở browser gõ trực tiếp** (dùng Postman hoặc curl)
 ```
+POST http://localhost:8080/api/admin/import
 POST http://localhost:8080/api/admin/import?path=../financial-etl-pipeline/output
 ```
 
@@ -136,6 +137,7 @@ npm run dev
 | Method | URL | Mô tả | Ví dụ |
 | ------ | --- | ----- | ----- |
 | `GET` | `/api/admin/health` | Kiểm tra server hoạt động | Trả về `{"status":"UP"}` |
+| `POST` | `/api/admin/import` | Import CSV vào MySQL | `?path=../financial-etl-pipeline/output` |
 | `POST` | `/api/admin/import?path=...` | Import CSV vào MySQL | `?path=../financial-etl-pipeline/output` |
 
 ### Stock API

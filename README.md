@@ -36,7 +36,7 @@
 Kiểm tra:
 ```bash
 mysql -u root -p
-# Nhập password: chien1207
+# Nhập password: 
 ```
 
 ---
